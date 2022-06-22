@@ -1,0 +1,31 @@
+.row{
+    width: 100%;
+    .cajaTexto{
+        padding: 5rem 0 5rem 5rem;
+        .titulo{
+            text-align: center;
+            font-size: 60px;
+            font-family: 'Lobster', cursive;
+        }
+        .descripcion{
+            text-align: justify;
+            padding: 50px 65px;
+            line-height: 2rem;
+        }
+    }
+    .cajaImagen{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        .imagen{
+            width: 420px;
+            height: 519px;
+        }
+    }
+}
+
+
+
+
+
+

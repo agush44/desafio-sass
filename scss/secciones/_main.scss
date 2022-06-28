@@ -8,9 +8,8 @@
             font-family: 'Lobster', cursive;
         }
         .descripcion{
-            text-align: justify;
+            @extend %estilosParrafo;
             padding: 50px 65px;
-            line-height: 2rem;
         }
     }
     .cajaImagen{

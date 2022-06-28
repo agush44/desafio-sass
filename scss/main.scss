@@ -1,5 +1,12 @@
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/tipografia';
+@import './secciones/contacto';
+@import './secciones/nosotros';
+@import './secciones/galeria';
+@import './secciones/productos';
 @import './secciones/general.scss';
 @import './secciones/header.scss';
-@import './secciones/section';
+@import './secciones/main';
 @import './secciones/footer.scss';
 @import './secciones/media-queries';

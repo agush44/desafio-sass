@@ -1,0 +1,4 @@
+Agregué:
+- Etiquetas meta keywords y description en index
+- Mejoré el title
+- Cambié el h2 por un h1 en index

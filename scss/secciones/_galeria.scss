@@ -1,0 +1,30 @@
+@mixin typoTitle ($tipografiaTitulo, $colorTitulo){
+    font-family: $tipografiaTitulo;
+    color: $colorTitulo;
+}
+.main-galeria{
+    height: 140vh;
+    .galeriaText{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        h2{
+            @include typoTitle ($tipografiaTitulo, $colorTitulo);
+            @extend %estilosTitulos;
+        }
+        p{
+            @extend %estilosParrafo;
+            padding: 0 5rem;
+        }
+    }
+    .contenedor-galeria{
+        width: 40%;
+        margin-left: 25rem;
+        margin-bottom: 2rem;
+        .carousel-inner{
+            width: 100%;
+        } 
+    }
+}

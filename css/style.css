@@ -190,48 +190,44 @@ a {
         .footer ul li a:hover {
           border-bottom: 2px solid #333; }
 
-@media (max-width: 1024px) {
-  /* GENERAL */
-  .nav-item a:hover {
-    border-bottom: none; }
-  /* INDEX */
-  .cajaTexto {
-    padding: 0;
-    padding-top: 4rem; }
-    .cajaTexto .descripcion {
-      padding: 2rem; }
-  .cajaImagen {
-    padding: 2rem; } }
-
-@media (max-width: 768px) {
-  /* GENERAL */
-  .nav-item a:hover {
-    border-bottom: none; }
-  /* INDEX */
-  .titulo {
-    font-size: 50px; }
-  .cajaImagen {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center; }
-    .cajaImagen .imagen {
-      width: 320px;
-      height: 400px; } }
-
 @media (max-width: 480px) {
-  /* GENERAL */
-  .nav-item a:hover {
-    border-bottom: none; }
-  /* INDEX */
-  .cajaTexto {
-    padding: 0;
-    margin: 0 auto; }
-    .cajaTexto .descripcion {
-      padding: 0; }
-  .cajaImagen {
-    padding: 0 0 2rem 0; }
-    .cajaImagen .imagen {
-      height: 530px;
-      width: 550px;
-      margin: 0 auto;
-      padding-bottom: 4rem; } }
+  .row {
+    width: 100%; }
+    .row .cajaTexto {
+      padding: 0 5rem; }
+      .row .cajaTexto .titulo {
+        padding-top: 2rem; }
+      .row .cajaTexto .descripcion {
+        padding: 2rem 0 2rem 1rem; }
+    .row .cajaImagen {
+      padding: 2rem 0 2rem 1rem; }
+      .row .cajaImagen .imagen {
+        height: 525px;
+        width: 350px;
+        padding-bottom: 4rem; }
+  .container .tituloProd {
+    padding-top: 2rem;
+    margin: 0; }
+  .container .descripcionProd {
+    padding: 2rem 2rem 2rem 3rem; }
+  #cardContenedor {
+    padding-left: 2.3rem; }
+  .main-galeria {
+    height: 110vh; }
+    .main-galeria .galeriaText {
+      margin-bottom: 5rem; }
+    .main-galeria .contenedor-galeria {
+      width: 70%;
+      padding-top: 3rem;
+      margin: 0 auto; }
+  #nosotros {
+    height: 135vh; }
+    #nosotros .quienesSomos {
+      padding: 2rem 3rem 2rem 4rem; }
+      #nosotros .quienesSomos .nosotrosTitulo {
+        margin: 0;
+        padding-bottom: 2rem; }
+    #nosotros .asideNosotros {
+      padding: 0 3rem 3rem 4rem; }
+  .containerForm {
+    height: 75vh; } }

@@ -1,45 +1,61 @@
-// @media (max-width: 1024px){
-//     /* GENERAL */
-//     .nav-item a:hover{
-//         border-bottom: none;
-//     }
-//     /* INDEX */
-//     .cajaTexto{
-//         padding: 0;
-//         padding-top: 4rem;
-//         .descripcion{
-//             padding: 2rem;
-//         }
-//     }
-//     .cajaImagen{
-//         padding: 2rem;
-//     }
-// }
-
-// @media (max-width: 768px){
-//     /* GENERAL */
-//     .nav-item a:hover{
-//         border-bottom: none;
-//     }
-//     /* INDEX */
-//     .titulo{
-//         font-size: 50px;
-//     }
-//     .cajaImagen{
-//         box-sizing: border-box;
-//         display: flex;
-//         align-items: center;
-//         .imagen{
-//             width: 320px;
-//             height: 400px;
-//         }
-//     }
-// }
-
+@media (max-width: 768px){
+    /* INDEX */
+    #container-index{
+        width: 100%;
+        height: 80vh;
+        .cajaTexto{
+            padding: 3rem;
+            .titulo{
+                padding-top: 2rem;
+                font-size: 3.5rem;
+            }
+            .descripcion{
+                padding: 2rem 0 2rem 1rem;
+            }
+        }
+        .cajaImagen{
+        padding: 3rem 0 3rem 0;
+            .imagen{
+            height: 525px;
+            width: 350px;
+            padding-bottom: 4rem;
+            }
+        }
+    }
+// PRODUCTOS
+    #cardContenedor{
+        padding-top: 2rem;
+    }
+// GALERIA
+    .main-galeria{
+        height: 135vh;
+        .contenedor-galeria{
+            width: 70%; 
+            padding-top: 3rem;
+            margin: 0 auto;
+        }
+    }
+// NOSOTROS
+    #nosotros{
+        display: flex;
+        height: 80vh;
+        .quienesSomos{
+            padding: 2rem 3rem 2rem 3rem;
+            .nosotrosTitulo{
+                margin: 0;
+                padding-bottom: 2rem;
+            }
+        }
+        .asideNosotros{
+            padding-right: 2rem;
+        }
+}
+}
 @media (max-width: 480px) {
 // INDEX
-    .row{
+    #container-index{
         width: 100%;
+        height: 130vh;
         .cajaTexto{
             padding: 0 5rem;
             .titulo{
@@ -60,16 +76,24 @@
     }
 // PRODUCTOS
     .container{
-        .tituloProd{
+        height: 275vh;
+        #cajaProd{
+            height: 50vh;
+            .col-12{
+                height: 30vh;
+                .tituloProd{
+                    padding-top: 2rem;
+                    margin: 0;
+                }
+                .descripcionProd{
+                    padding: 2rem 2rem 2rem 3rem;
+                }
+            }
+        }
+        #cardContenedor{
+            padding-left: 2.3rem;
             padding-top: 2rem;
-            margin: 0;
         }
-        .descripcionProd{
-            padding: 2rem 2rem 2rem 3rem;
-        }
-    }
-    #cardContenedor{
-        padding-left: 2.3rem;
     }
 // GALERIA
     .main-galeria{

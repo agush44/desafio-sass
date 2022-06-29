@@ -190,28 +190,73 @@ a {
         .footer ul li a:hover {
           border-bottom: 2px solid #333; }
 
-@media (max-width: 480px) {
-  .row {
-    width: 100%; }
-    .row .cajaTexto {
-      padding: 0 5rem; }
-      .row .cajaTexto .titulo {
-        padding-top: 2rem; }
-      .row .cajaTexto .descripcion {
+@media (max-width: 768px) {
+  /* INDEX */
+  #container-index {
+    width: 100%;
+    height: 80vh; }
+    #container-index .cajaTexto {
+      padding: 3rem; }
+      #container-index .cajaTexto .titulo {
+        padding-top: 2rem;
+        font-size: 3.5rem; }
+      #container-index .cajaTexto .descripcion {
         padding: 2rem 0 2rem 1rem; }
-    .row .cajaImagen {
-      padding: 2rem 0 2rem 1rem; }
-      .row .cajaImagen .imagen {
+    #container-index .cajaImagen {
+      padding: 3rem 0 3rem 0; }
+      #container-index .cajaImagen .imagen {
         height: 525px;
         width: 350px;
         padding-bottom: 4rem; }
-  .container .tituloProd {
-    padding-top: 2rem;
-    margin: 0; }
-  .container .descripcionProd {
-    padding: 2rem 2rem 2rem 3rem; }
   #cardContenedor {
-    padding-left: 2.3rem; }
+    padding-top: 2rem; }
+  .main-galeria {
+    height: 135vh; }
+    .main-galeria .contenedor-galeria {
+      width: 70%;
+      padding-top: 3rem;
+      margin: 0 auto; }
+  #nosotros {
+    display: flex;
+    height: 80vh; }
+    #nosotros .quienesSomos {
+      padding: 2rem 3rem 2rem 3rem; }
+      #nosotros .quienesSomos .nosotrosTitulo {
+        margin: 0;
+        padding-bottom: 2rem; }
+    #nosotros .asideNosotros {
+      padding-right: 2rem; } }
+
+@media (max-width: 480px) {
+  #container-index {
+    width: 100%;
+    height: 130vh; }
+    #container-index .cajaTexto {
+      padding: 0 5rem; }
+      #container-index .cajaTexto .titulo {
+        padding-top: 2rem; }
+      #container-index .cajaTexto .descripcion {
+        padding: 2rem 0 2rem 1rem; }
+    #container-index .cajaImagen {
+      padding: 2rem 0 2rem 1rem; }
+      #container-index .cajaImagen .imagen {
+        height: 525px;
+        width: 350px;
+        padding-bottom: 4rem; }
+  .container {
+    height: 275vh; }
+    .container #cajaProd {
+      height: 50vh; }
+      .container #cajaProd .col-12 {
+        height: 30vh; }
+        .container #cajaProd .col-12 .tituloProd {
+          padding-top: 2rem;
+          margin: 0; }
+        .container #cajaProd .col-12 .descripcionProd {
+          padding: 2rem 2rem 2rem 3rem; }
+    .container #cardContenedor {
+      padding-left: 2.3rem;
+      padding-top: 2rem; }
   .main-galeria {
     height: 110vh; }
     .main-galeria .galeriaText {

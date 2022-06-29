@@ -2,3 +2,4 @@ Agregué:
 - Etiquetas meta keywords y description en index
 - Cambié el title de todas las secciones
 - Cambié el h2 por un h1 en index
+- Comprimí imágenes

@@ -3,57 +3,63 @@
   line-height: 2rem;
   color: #494848; }
 
-.containerForm .contacto, #nosotros .quienesSomos .nosotrosTitulo, .main-galeria .galeriaText h2, .container .tituloProd {
+#contacto .containerForm .contacto, #nosotros .quienesSomos .nosotrosTitulo, .main-galeria .galeriaText h2, .container .tituloProd {
   text-align: center;
   font-size: 2rem;
   margin: 2rem; }
 
-.containerForm .contacto {
-  font-family: "Lobster", cursive;
-  color: #212529; }
-
-.containerForm .form {
-  width: 300px;
-  padding: 16px;
-  border-radius: 10px;
-  margin: auto;
-  background-color: #ccc;
-  margin-bottom: 2rem; }
-  .containerForm .form label {
-    width: 72px;
-    font-weight: bold;
-    display: inline-block; }
-  .containerForm .form input[type="text"],
-  .containerForm .form input[type="email"] {
-    width: 180px;
-    padding: 3px 10px;
-    border: 1px solid #f6f6f6;
-    border-radius: 3px;
-    background-color: #f6f6f6;
-    margin: 8px 0;
-    display: inline-block; }
-  .containerForm .form input[type="submit"] {
-    width: 100%;
-    padding: 8px 16px;
-    margin-top: 32px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    display: block;
-    color: #fff;
-    background-color: #000; }
-    .containerForm .form input[type="submit"]:hover {
-      cursor: pointer;
-      background-color: rgba(51, 51, 51, 0.705);
-      border: rgba(51, 51, 51, 0.705) 1px solid; }
-  .containerForm .form textarea {
-    width: 100%;
-    height: 100px;
-    border: 1px solid #f6f6f6;
-    border-radius: 3px;
-    background-color: #f6f6f6;
-    margin: 8px 0;
-    resize: none;
-    display: block; }
+#contacto {
+  background-image: url(/img/foto-contacto.jpg); }
+  #contacto .containerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 11rem; }
+    #contacto .containerForm .contacto {
+      font-family: "Lobster", cursive;
+      color: #212529;
+      padding-right: 4rem; }
+    #contacto .containerForm .form {
+      width: 300px;
+      padding: 16px;
+      border-radius: 10px;
+      background-color: #ccc;
+      margin-bottom: 2rem; }
+      #contacto .containerForm .form label {
+        width: 72px;
+        font-weight: bold;
+        display: inline-block; }
+      #contacto .containerForm .form input[type="text"],
+      #contacto .containerForm .form input[type="email"] {
+        width: 180px;
+        padding: 3px 10px;
+        border: 1px solid #f6f6f6;
+        border-radius: 3px;
+        background-color: #f6f6f6;
+        margin: 8px 0;
+        display: inline-block; }
+      #contacto .containerForm .form input[type="submit"] {
+        width: 100%;
+        padding: 8px 16px;
+        margin-top: 32px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        display: block;
+        color: #fff;
+        background-color: #000; }
+        #contacto .containerForm .form input[type="submit"]:hover {
+          cursor: pointer;
+          background-color: rgba(51, 51, 51, 0.705);
+          border: rgba(51, 51, 51, 0.705) 1px solid; }
+      #contacto .containerForm .form textarea {
+        width: 100%;
+        height: 100px;
+        border: 1px solid #f6f6f6;
+        border-radius: 3px;
+        background-color: #f6f6f6;
+        margin: 8px 0;
+        resize: none;
+        display: block; }
 
 #nosotros {
   width: 100%;
@@ -194,16 +200,18 @@ a {
   /* INDEX */
   #container-index {
     width: 100%;
-    height: 80vh; }
+    height: 79vh; }
     #container-index .cajaTexto {
-      padding: 3rem; }
+      height: 79vh;
+      padding: 3rem 3rem 2.5rem 3rem; }
       #container-index .cajaTexto .titulo {
         padding-top: 2rem;
         font-size: 3.5rem; }
       #container-index .cajaTexto .descripcion {
         padding: 2rem 0 2rem 1rem; }
     #container-index .cajaImagen {
-      padding: 3rem 0 3rem 0; }
+      height: 79vh;
+      padding-top: 3rem; }
       #container-index .cajaImagen .imagen {
         height: 525px;
         width: 350px;
@@ -225,26 +233,77 @@ a {
         margin: 0;
         padding-bottom: 2rem; }
     #nosotros .asideNosotros {
-      padding-right: 2rem; } }
+      padding-right: 2rem; }
+  #contacto {
+    background-image: url(/img/foto1-contacto.jpg); }
+    #contacto .containerForm {
+      display: block;
+      padding: 0;
+      margin-bottom: 5px; }
+      #contacto .containerForm .contacto {
+        padding: 0; }
+      #contacto .containerForm .form {
+        width: 300px;
+        padding: 1rem;
+        border-radius: 10px;
+        margin: auto;
+        background-color: #ccc;
+        margin-bottom: 2rem; }
+        #contacto .containerForm .form label {
+          width: 72px;
+          font-weight: bold;
+          display: inline-block; }
+        #contacto .containerForm .form input[type="text"],
+        #contacto .containerForm .form input[type="email"] {
+          width: 180px;
+          padding: 3px 10px;
+          border: 1px solid #f6f6f6;
+          border-radius: 3px;
+          background-color: #f6f6f6;
+          margin: 8px 0;
+          display: inline-block; }
+        #contacto .containerForm .form input[type="submit"] {
+          width: 100%;
+          padding: 8px 16px;
+          margin-top: 32px;
+          border: 1px solid #000;
+          border-radius: 5px;
+          display: block;
+          color: #fff;
+          background-color: #000; }
+          #contacto .containerForm .form input[type="submit"]:hover {
+            cursor: pointer;
+            background-color: rgba(51, 51, 51, 0.705);
+            border: rgba(51, 51, 51, 0.705) 1px solid; }
+        #contacto .containerForm .form textarea {
+          width: 100%;
+          height: 100px;
+          border: 1px solid #f6f6f6;
+          border-radius: 3px;
+          background-color: #f6f6f6;
+          margin: 8px 0;
+          resize: none;
+          display: block; } }
 
 @media (max-width: 480px) {
   #container-index {
     width: 100%;
-    height: 130vh; }
+    height: 135vh; }
     #container-index .cajaTexto {
+      height: 50vh;
       padding: 0 5rem; }
       #container-index .cajaTexto .titulo {
         padding-top: 2rem; }
       #container-index .cajaTexto .descripcion {
         padding: 2rem 0 2rem 1rem; }
     #container-index .cajaImagen {
-      padding: 2rem 0 2rem 1rem; }
+      padding: 5rem 0 2rem 1rem; }
       #container-index .cajaImagen .imagen {
         height: 525px;
         width: 350px;
         padding-bottom: 4rem; }
   .container {
-    height: 275vh; }
+    height: 280vh; }
     .container #cajaProd {
       height: 50vh; }
       .container #cajaProd .col-12 {

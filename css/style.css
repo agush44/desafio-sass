@@ -174,7 +174,7 @@ a {
       height: 519px; }
 
 .footer {
-  background: linear-gradient(0deg, #f9f9f9 0%, #a8a8a8 100%); }
+  background: linear-gradient(0deg, #a8a8a8 0%, #f9f9f9 100%); }
   .footer ul {
     display: flex;
     justify-content: center;
